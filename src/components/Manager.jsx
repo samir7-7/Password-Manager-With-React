@@ -201,8 +201,8 @@ const Manager = () => {
                                         <td className="px-6 py-4">
                                             {item["username"]}<a href="#" className="copyBtn font-medium hover:text-red-500 ml-2" ><i className="fa-solid fa-copy" onClick={() => { copytext(item["username"]) }}></i></a>
                                         </td>
-                                        <td className="px-6 py-4">
-                                            {item["password"]}<a href="#" className="copyBtn font-medium hover:text-red-500 ml-2" ><i className="fa-solid fa-copy" onClick={() => { copytext(item["password"]) }}></i></a>
+                                        <td className="px-6 py-4" value={item["password"]}>
+                                            *******<a href="#" className="copyBtn font-medium hover:text-red-500 ml-2" ><i className="fa-solid fa-copy" onClick={() => { copytext(item["password"]) }}></i></a>
                                         </td>
 
                                         <td className="px-6 py-4 flex gap-3">

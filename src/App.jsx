@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='w-[100vw]'>
       <Navbar />
-      <div className='min-h-[86.3vh]'>
+      <div className='min-h-[86.3vh] inset-0 -z-10 h-full bg-red-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]'>
         <Manager />
       </div>
       <Footer />
